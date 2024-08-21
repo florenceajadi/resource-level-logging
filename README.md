@@ -21,10 +21,7 @@ I created a Key Vault called CyberCat-KV-01. Which is going to securely store an
        <img src="https://github.com/user-attachments/assets/22470f0d-bdef-4657-88b7-2473132659e7" height="80%" width="80%" />
 <p>I was able to create two Secrets in the new key vault which are confidential pieces of info like pswds, API keys, or connection strings. Creating a new diagnostic setting within my Key vaults to collect logs. </p>
 <br />
-<p>
-searching for AzureActivity logs for anything related to resource groups that starts with "criticial-infrastructure-", which resulted to 5 resource groups.  It also shows the result by the time
-  the activity occurred, which helps me track any operations like deletion on any of the critical resource groups. This is good for monitoring and ensuring the security and integrity of infrastructure.
-</p>
+
  <img src="https://github.com/user-attachments/assets/3f3f9094-6bb7-4702-b73e-f3260ba105f9" height="80%" width="80%" />
  <img src="https://github.com/user-attachments/assets/23a9d878-cde8-4729-89f3-12c09d36ba72" height="80%" width="80%" />
 <p>
